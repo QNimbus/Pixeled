@@ -25,11 +25,15 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2 {
 	margin: 0;
 	padding: 10px 0px 10px 0px;
+	/* Added/changed by B. van Wetten */
+	color: #e3e45f;
 }
 
 h3, h4, h5, h6 {
 	margin: 0;
 	padding: 10px 0px 0px 0px;
+	/* Added/changed by B. van Wetten */
+	color: #e3e45f;
 }
 
 p {
@@ -65,7 +69,7 @@ p {
 }
 
 a {
-	color: #6598b8;
+	color: #e3e45f;
 	text-decoration: none;
 }
 
@@ -150,19 +154,33 @@ body {
 	text-transform: lowercase;
 }
 #header #topright li a:hover {
-	color: #6598b8;
+	color: #e3e45f;
 	text-decoration: none;
 }
+/* Added/changed by B. van Wetten */
 #header #logo {
-	float: left;
+	/*float: left;
 	width: 350px;
 	margin: 25px 0 0 0;
-	padding: 0;
+	padding: 0;*/
 }
 #header h1 {
-	padding: 0;
-	margin: 0;
+	/*padding: 0;
+	margin: 0;*/
 }
+#header #logo h1 a {
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-image: url(images/logo5.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+}
+/* END */
 #header h1 a {
 	color: #fff;
 	font-size: 17pt;
@@ -211,7 +229,7 @@ body {
 	letter-spacing: -1px;
 }
 #nav li a:hover {
-	color: #6598b8;
+	color: #e3e45f;
 	text-decoration: none;
 	display: block;
 }
@@ -331,7 +349,9 @@ body {
 }
 .topPost div.topContent ul li, .topPost div.topContent ol li {
 	color: #eeeeee;
-	padding-bottom: 1pt;
+	/* Added/changed by B. van Wetten */
+	/*padding-bottom: 1pt;*/
+	padding: 1pt;
 }
 .topPost span.topComments, .topPost span.topMore, .topPost span.topTags {
 	font-size: 9pt;
@@ -418,7 +438,7 @@ body {
 	padding: 0;
 }
 #comment p a {
-	color: #6598b8;
+	color: #e3e45f;
 }
 #comment p a:hover {
 	color: #fff;
@@ -489,7 +509,7 @@ textarea#comment {
 	margin: 0;
 }
 #extrastuff a {color:#222; font-size:0.8em;}
-#extrastuff a:hover {color:#6598b8; text-decoration:none;}
+#extrastuff a:hover {color:#e3e45f; text-decoration:none;}
 #extrastuff #rssleft {float:left; width:250px;}
 #extrastuff #trackright {float:right; width:180px; text-align:right;}
 
@@ -521,7 +541,7 @@ textarea#comment {
 	color: #ff9933;
 }
 #main #welcome a:hover {
-	color: #6598b8;
+	color: #e3e45f;
 }
 #main #welcome form {
 	margin: -5px 0 0 0;
@@ -615,7 +635,7 @@ textarea#comment {
 	 color: #eee;
 }
 #sidebars a:hover {
-	 color: #6598b8;
+	 color: #e3e45f;
 	 text-decoration: none;
 }
 
@@ -659,7 +679,7 @@ textarea#comment {
 	 color: #ddd;
 }
 #morefoot a:hover {
-	 color: #6598b8;
+	 color: #e3e45f;
 }
 #morefoot h3 {
 	 font-size: 12pt;
@@ -1082,3 +1102,38 @@ table.wikitable, table.TablePager {
 ul#filetoc {
 	background-color: #080808;
 }
+
+/* Added/changed by B. van Wetten */
+input[type="submit"] {
+	font-family: Verdana;
+	background-color:#ddd;
+	padding: 2px;
+	border: 1px solid #eee;
+}
+input[type="text"] {
+	font-family: Verdana;
+	background-color:#fff;
+	padding: 2px;
+	border: 1px dotted #333;
+}
+input#wpSummary {
+	margin-top: 1em;
+}
+form input {
+	font-family: Verdana;
+	background-color:#fff;
+	padding: 2px;
+	border: 1px dotted #333;
+	margin: 2px;
+}
+textarea {
+	width: 100%;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	background: #eee !important;
+	font-family: Courier New, monospace;
+}
+a:link[title*="exist"] {  
+  color: #1f6053; /* nettuts green */  
+}  
