@@ -26,11 +26,6 @@ class SkinPixeled extends SkinTemplate {
 			return $catlinks;
 		}
 	}
-	
-	function tocList($toc) { 
-		$this->savedTOC = parent::tocList($toc); 
-		return ""; 
-	} 
  
 	function getCategoryLinks() {
 		global $wgUseCategoryBrowser;
