@@ -186,7 +186,7 @@ class pixeledTemplate extends QuickTemplate {
 		<div id="contentwrapper">
 			<div class="topPost">
 				<div class="topContent">
-					<h2><?php $this->html('title') ?></h2>
+					<h2 class="topTitle"><?php $this->html('title') ?></h2>
 					<!-- start content -->
 					<?php $this->html('bodytext') ?>
 					<!-- end content -->

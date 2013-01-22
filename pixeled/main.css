@@ -333,7 +333,13 @@ body {
 .topPost div.topContent {
 	font-size: 9pt;
 	color: #efefef;
-	margin: 8px 0;
+	/* Added/changed by B. van Wetten */
+	/* margin: 8px 0; */
+	margin: 15px 0;
+}
+div.topContent h2 .mw-headline {
+	border-bottom: 1px dashed #666;
+	display: block;
 }
 .topPost div.topContent a {
 	text-decoration: underline;
@@ -352,6 +358,10 @@ body {
 	/* Added/changed by B. van Wetten */
 	/*padding-bottom: 1pt;*/
 	padding: 1pt;
+}
+/* Added/changed by B. van Wetten */
+.topPost h2.topTitle  {
+	display: none;
 }
 .topPost span.topComments, .topPost span.topMore, .topPost span.topTags {
 	font-size: 9pt;
@@ -1136,4 +1146,15 @@ textarea {
 }
 a:link[title*="exist"] {  
   color: #1f6053; /* nettuts green */  
-}  
+}
+#yambe {
+	display: block;
+	font-size: 14px;
+	background: url(images/bg-trans.png) repeat;
+	padding: 10px 10px 10px 10px;
+	color: #e3e45f;
+}
+h2 .editsection {
+	color: #fff;
+}
+
