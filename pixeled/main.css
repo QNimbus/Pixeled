@@ -706,9 +706,9 @@ textarea#comment {
 }
 #morefoot .col1 {
 	 float: left;
-	 width: 340px;
+	 width: 300px;;
 }
-#morefoot .col2 {
+#morefoot .col2, #morefoot .col3  {
 	 margin: 0 25px;
 }
 #morefoot .col2, #morefoot .col3 {
@@ -1156,5 +1156,23 @@ a:link[title*="exist"] {
 }
 h2 .editsection {
 	color: #fff;
+}
+.mw-geshi {
+	background: url(images/bg-trans.png) repeat;
+	padding: 5px 5px 5px 5px;
+	border: 1px dashed #333;
+}
+.custom_footer {
+	font-size: 9pt;
+}
+#small_logo {
+	width: 50px;
+	height: 50px;
+	display: block;
+	background:url(images/small_logo.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+	float: left;
+	clear: both;
 }
 
