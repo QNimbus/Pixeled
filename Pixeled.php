@@ -315,7 +315,6 @@ foreach ($this->data['sidebar']  as $boxName => $cont) {
 	<div id="morefoot">		
 		<div class="col1">
 			<div id="small_logo"></div>
-			<div class="custom_footer">Wiki created bybas (c) 2012, 2013</div>
 		</div>
 <!--<?php
 			$footerlinks = array(

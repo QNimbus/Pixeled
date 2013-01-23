@@ -79,9 +79,10 @@ a:hover {
 }
 
 a img {
+	max-width: 560px;
+	height: auto;
 	border: none;  
 }
-
 blockquote {
 	background: #070707;
 	border: 1px solid #060606;
@@ -705,8 +706,7 @@ textarea#comment {
 	 width: 180px;
 }
 #morefoot .col1 {
-	 float: left;
-	 width: 300px;;
+	 width: 100%;
 }
 #morefoot .col2, #morefoot .col3  {
 	 margin: 0 25px;
@@ -1162,17 +1162,15 @@ h2 .editsection {
 	padding: 5px 5px 5px 5px;
 	border: 1px dashed #333;
 }
-.custom_footer {
-	font-size: 9pt;
-}
+
 #small_logo {
-	width: 50px;
+	width: 100%;
 	height: 50px;
-	display: block;
 	background:url(images/small_logo.png);
 	background-size:40px 40px;
 	background-repeat:no-repeat;
-	float: left;
-	clear: both;
+	background-position: center center;
+	opacity:0.5;
+	filter:alpha(opacity=50);
 }
 
